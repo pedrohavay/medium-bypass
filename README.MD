@@ -1,6 +1,6 @@
 # Medium Bypass (Paywall)
 
-Chrome extension project created for a Medium article (link: ).
+An extension to bypass Medium Paywall. Project created for a Medium article.
 
 ## Installation
 
