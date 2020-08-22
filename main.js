@@ -3,7 +3,7 @@ chrome.browserAction.onClicked.addListener(function () {
     // Getting the current tab
     chrome.tabs.getSelected(null, function (tab) {
         // Getting url from active tab
-        const current_url = tab.url;
+        var current_url = tab.url;
 
         // Checking if is Medium website
         chrome.tabs.executeScript(tab.id, {

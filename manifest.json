@@ -4,12 +4,15 @@
     "author": "Pedro Havay",
     "version": "1.0",
     "permissions": [
-        "activeTab"
+        "tabs",
+        "activeTab",
+        "http://*/*",
+        "https://*/*"
     ],
     "browser_action": {},
     "background": {
       "scripts": ["main.js"],
-      "persistent": false
+      "persistent": true
     },
     "icons": { 
         "16": "icons/icon16.png",
